@@ -58,6 +58,7 @@ public class Program {
 			OrderItem orderItem = new OrderItem(quantityProduct, priceProduct, product);
 			order.addItem(orderItem);
 		}
+		System.out.println("Saida programa");
 		System.out.println();
 		System.out.println("ORDER SUMMARY:");
 		System.out.println(order);
